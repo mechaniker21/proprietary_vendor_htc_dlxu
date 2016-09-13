@@ -33,11 +33,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxub1/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/dlxub1/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/dlxub1/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
-  vendor/htc/dlxub1/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
   vendor/htc/dlxub1/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/dlxub1/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/dlxub1/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/dlxub1/proprietary/lib/libCB.so:system/lib/libCB.so \
   vendor/htc/dlxub1/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/dlxub1/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/dlxub1/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
@@ -48,7 +46,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxub1/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/dlxub1/proprietary/lib/libmm-abl.so:/system/lib/libmm-abl.so \
   vendor/htc/dlxub1/proprietary/lib/libmm-abl-oem.so:/system/lib/libmm-abl-oem.so \
-  vendor/htc/dlxub1/proprietary/lib/libmmcamera_aec.so:/system/lib/libmmcamera_aec.so \
   vendor/htc/dlxub1/proprietary/lib/libmmcamera_faceproc.so:/system/lib/libmmcamera_faceproc.so \
   vendor/htc/dlxub1/proprietary/lib/libmmcamera_frameproc.so:/system/lib/libmmcamera_frameproc.so \
   vendor/htc/dlxub1/proprietary/lib/libmmcamera_hdr_lib.so:/system/lib/libmmcamera_hdr_lib.so \
@@ -108,19 +105,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxub1/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/dlxub1/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/dlxub1/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-  vendor/htc/dlxub1/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
   vendor/htc/dlxub1/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/dlxub1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/dlxub1/proprietary/lib/hw/sensors.dlxub1.so:system/lib/hw/sensors.dlxub1.so \
+  vendor/htc/dlxub1/proprietary/lib/hw/sensors.dlxub1.so:system/lib/hw/sensors.dlxu.so \
   vendor/htc/dlxub1/proprietary/lib/libimu.so:system/lib/libimu.so \
-  vendor/htc/dlxub1/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-  vendor/htc/dlxub1/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlxub1/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlxub1/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/dlxub1/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/dlxub1/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlxub1/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-  vendor/htc/dlxub1/proprietary/lib/libext3-fileio.so:system/lib/libext3-fileio.so \
   vendor/htc/dlxub1/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd \
   vendor/htc/dlxub1/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
   vendor/htc/dlxub1/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
@@ -136,7 +129,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxub1/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
   vendor/htc/dlxub1/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/dlxub1/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-  vendor/htc/dlxub1/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
   vendor/htc/dlxub1/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
   vendor/htc/dlxub1/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
   vendor/htc/dlxub1/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
@@ -164,12 +156,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxub1/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:/system/vendor/lib/egl/libGLESv2S3D_adreno.so \
   vendor/htc/dlxub1/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
   vendor/htc/dlxub1/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
-  vendor/htc/dlxub1/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
   vendor/htc/dlxub1/proprietary/vendor/lib/libc2d30.so:/system/vendor/lib/libc2d30.so \
   vendor/htc/dlxub1/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
   vendor/htc/dlxub1/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
   vendor/htc/dlxub1/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
-  vendor/htc/dlxub1/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
-  vendor/htc/dlxub1/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
-  vendor/htc/dlxub1/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
   vendor/htc/dlxub1/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so
