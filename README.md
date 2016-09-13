@@ -1,1 +1,1 @@
-# proprietary_vendor_htc_dlxu
+Vendor For HTC Butterfly X920E (DLXU)
